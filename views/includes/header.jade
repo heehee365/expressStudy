@@ -1,0 +1,22 @@
+nav.navbar.navbar-default.navbar-static-top(role="navigation")
+	.container-fluid
+		.navbar-header
+			button.navbar-toggle.collapsed(data-toggle="collapse",data-target="#bs-example-navbar-collapse-1",aria-expanded="false")
+				span.sr-only Toggle navigation
+				span.icon-bar
+				span.icon-bar
+				span.icon-bar
+			a.navbar-brand(href="#") Demo
+		#bs-example-navbar-collapse-1.collapse.navbar-collapse
+			ul.nav.navbar-nav
+				li.active
+					a(href="/") 首页
+						span.sr-only (current)
+				li
+					a(href="/movies") 电影列表
+				li
+					a(href="/movie/add/new") 添加电影
+				li
+					a(href="/movie/modify/5") 修改电影
+				li
+					a(href="/movie/delete/5") 删除电影
